@@ -9,7 +9,15 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from datetime import datetime  # Per i timestamp
 
+# --- CONFIGURAZIONE DATABRICKS ---
+DATABRICKS_SERVER_HOSTNAME = "adb-2969897306578261.1.azuredatabricks.net" # Inserisci il tuo host
+DATABRICKS_HTTP_PATH = "/sql/1.0/warehouses/8f937805c1eeca28"            # Inserisci il tuo http path
 
+# Cataloghi e Schemi
+SOURCE_TABLE = "produzione_dbcatalog.svil_gco_alessia.conversazioni_aggregato_bot"
+DEST_SCHEMA = "produzione_dbcatalog.svil_gco_francesco"
+CALLS_TABLE = f"{DEST_SCHEMA}.calls"
+CATS_TABLE = f"{DEST_SCHEMA}.categories"
 
 # --- CONFIGURAZIONE AI ---
 LLM_URL = "http://localhost:1234/v1"
