@@ -1,0 +1,7 @@
+Analizza la seguente conversazione tra un assistente digitale e un utente.
+Sintetizza l'intento principale dell'utente in massimo 5 parole (es. "Richiesta sblocco carta", "Info stato spedizione").
+
+Conversazione:
+{text}
+
+Rispondi SOLO con le parole dell'intento, senza aggiungere commenti, introduzioni o saluti.

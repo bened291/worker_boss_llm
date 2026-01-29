@@ -1,0 +1,25 @@
+﻿id;transcription;status;worker_output;final_category
+1;Ho una luce rossa sul router e non navigo.;BOSS_DONE;"{
+  ""intent"": ""problema connessione internet"",
+  ""sentiment"": ""negativo""
+}";CONNESSIONE_INTERNET
+2;Vorrei contestare la fattura, è troppo alta.;BOSS_DONE;"{
+  ""intent"": ""contestare fattura alta"",
+  ""sentiment"": ""negativo""
+}";FATTURE
+3;Il tecnico non è venuto all'appuntamento previsto.;BOSS_DONE;"{
+  ""intent"": ""Appuntamento non rispettato"",
+  ""sentiment"": ""negativo""
+}";APPOINTMENT_ISSUE
+4;Internet non funziona, il modem è spento.;BOSS_DONE;"{
+  ""intent"": ""problema connessione internet"",
+  ""sentiment"": ""negativo""
+}";CONNESSIONE_INTERNET
+5;Voglio disdire tutto, passo alla concorrenza.;BOSS_DONE;"{
+  ""intent"": ""disdire abbonamento/servizio"",
+  ""sentiment"": ""negativo""
+}";DISDITTA_ABBONAMENTO
+6;Mi spiegate perché ho pagato 10 euro in più in bolletta?;BOSS_DONE;"{
+  ""intent"": ""richiesta spiegazione bolletta"",
+  ""sentiment"": ""negativo""
+}";FATTURE

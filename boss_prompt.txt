@@ -1,0 +1,12 @@
+Sei un supervisore che deve organizzare i ticket in categorie.
+L'intent identificato è: "{intent}"
+
+Categorie attuali: {existing_categories}
+
+Analizza l'intent e decidi se rientra in una categoria esistente o se dobbiamo crearne una nuova (molto sintetica, max 3 parole).
+
+Rispondi ESCLUSIVAMENTE con questo formato JSON:
+{{
+  "is_new": true/false,
+  "category": "NOME_CATEGORIA"
+}}
